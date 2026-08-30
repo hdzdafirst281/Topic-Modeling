@@ -114,3 +114,4 @@ The model optimally categorizes the lyrics into 20 distinct themes:
 ## ⚠️ Important Notes
 - **Reproducibility**: The pipeline utilizes `set_seed(42)` to ensure consistent results across different runs.
 - **Memory Requirements**: VnCoreNLP is memory-intensive and requires a substantial Java Heap allocation (~4GB).
+- **Data Availability**: The dataset and cache files located in the `source_code/data/` directory (specifically `final_dataset_v3.csv`, `final_dataset_v3_preprocessed.csv`, `final_dataset_with_topics.csv`, and `embeddings_cache.npy`) are intentionally not included in this repository. This is due to their large file sizes which prevent pushing to Git, and more importantly, to keep the dataset private as a significant amount of time and effort was invested into collecting and refining it. When running the code, please be aware that these files will be missing.
