@@ -1,0 +1,43 @@
+# Jupyter Notebook / Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data files (Too large for Git, over 100MB)
+source_code/data/*.csv
+source_code/data/*.npy
+source_code/data/*.zip
+source_code/data/*.tar.gz
+source_code/data/*.json
+
+# Models
+source_code/stage2_CTM/
+source_code/VnCoreNLP/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Output visualizations
+*.html
+
+# Reports and Presentations
+report-turnitin.pdf
+report.docx
+poster.pptx
+presentations.pptx
+baocao-turnitin.pdf
+baocao.docx
